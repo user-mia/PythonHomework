@@ -20,7 +20,8 @@ excel = Workbook()
 ws = excel.active
 
 ws.append(['名次', '名称', '链接', '评分', '评价人数'])
-for start in range(0, 250, 25):
+for start in range(0, 26, 25):
+# for start in range(0, 250, 25):
     # 结果数组
     inputItem = []
     time.sleep(random.randint(1, 3))
